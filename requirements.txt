@@ -1,0 +1,24 @@
+# --- Core UI & utils ---
+streamlit>=1.36
+plotly>=5.22
+pandas>=2.2
+numpy>=1.24,<2.0
+scipy>=1.10,<1.13
+tqdm>=4.66
+
+# --- Audio I/O & DSP ---
+soundfile>=0.12
+librosa>=0.10.1
+
+# --- ML / Diarization stack (Torch ayrı kurulacak) ---
+scikit-learn>=1.3
+huggingface_hub>=0.23
+
+# Pyannote ekosistemi
+pyannote.audio==3.1.1
+pyannote.core>=5.0
+pyannote.metrics>=3.2
+
+# Alternatif yöntemler (koddaki legacy scriptler için)
+speechbrain>=0.5.16
+resemblyzer>=0.1.4
