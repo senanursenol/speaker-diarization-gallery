@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.dist/
+build/
+dist/
+.venv/
+venv/
+ENV/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit / Secrets
+.streamlit/**/cache*/
+.streamlit/**/.cache/
+.streamlit/secrets.toml
+*.env
+.env
+.secrets/
+*.log
+
+# Veri ve çıktılar
+data/
+*/data/
+audio/
+*/audio/
+results/
+*/results/
+metrics/
+*/metrics/
+summaries/
+previews/
+artifacts/
+logs/
+cache/
+tmp/
+temp/
+
+# Model ağırlıkları / checkpointler
+pretrained_models/
+*.ckpt
+*.pt
+*.bin
+*.onnx
+*.pb
+
+# HF / diğer cache
+.huggingface/
+.hf_cache/
+.cache/
