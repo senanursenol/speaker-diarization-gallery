@@ -432,7 +432,7 @@ def main():
     st.markdown("""
         <div class="hero">
             <div class="hero-badge">
-                <h1>DİYARİZASYON GALERİSİ</h1>
+                <h1>DIARIZATION GALERİSİ</h1>
             </div>
         </div>
     """, unsafe_allow_html=True)
