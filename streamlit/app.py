@@ -23,7 +23,7 @@ BASE = Path(__file__).resolve().parent
 DATA_DIR = (BASE / "data") if (BASE / "data").exists() else (BASE.parent / "data")
 AUDIO_DIRS = [BASE / "audio", DATA_DIR / "audio", BASE.parent / "audio"]
 
-st.set_page_config(page_title="Diyarizasyon Galerisi", layout="wide")
+st.set_page_config(page_title="Diarization Galerisi", layout="wide")
 load_css(BASE / "styles.css")
 
 def fmt_time(sec: float) -> str:
